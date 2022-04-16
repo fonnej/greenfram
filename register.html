@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+	
+		<!-- Required meta tags -->
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <meta name="description" content="" />
+        <meta name="author" content="" />
+        <!-- Favicon-->
+		<link rel="icon" type="image/x-icon" href="../project/p_img/icon/logopng.png">
+        <!-- Bootstrap icons-->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css" rel="stylesheet" />
+        <!-- Core theme CSS (includes Bootstrap)-->
+        <link href="css/styles.css" rel="stylesheet" />
+		<link rel="icon" type="image/png" href="../project/p_img/icon/logopng.png" />
+		<!-- Bootstrap CSS -->
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+<style>
+body{
+font-family: Kanit;
+</style>
+
+		<title>สมัครสมาชิก</title>
+	</head>
+	<body>
+		
+		<body style="background-image: url('p_img/photo_all/ff1 (1).jpg');"></body>
+		<center><img src="p_img/photo_all/logopng.png" width="12%;" align='center'></center>
+		<div class="container ">
+		<div class="login">
+			<center><h2>สมัครสมาชิก</h2></center>
+		<form action="register.php" method="POST">
+			
+<br>
+			<div class="row row-no-gutters">
+				<div class="col-md-6">
+				<label for="Username" class="form-label">Username :<span style="color: red;">&nbsp;*</label>
+				<input type="text" class="form-control" name ="user" placeholder="Username" required minlength="10">
+				
+			</div>
+			
+			<div class="col-md-6">
+				<label for="password" class="form-label">password :<span style="color: red;">&nbsp;*</label>
+				<input type="password" class="form-control"  name="pass" placeholder="รหัสผ่าน" required minlength="8">
+			</div>
+			<div class="col-md-6">
+			คำนำหน้า : <select class="form-control"  name="title">
+			<option value="นาย">นาย
+			<option value="นาง" >นาง
+			<option value="นางสาว">นางสาว
+			</select>
+			</div>
+			<div class="col-md-6">
+				<label for="exampleInputEmail1" class="form-label">ชื่อจริง :<span style="color: red;">&nbsp;*</label>
+				<input type="text" class="form-control"  name="fname" placeholder="กรุณาใส่ชื่อจริง" required>
+			</div>
+			<div class="col-md-6">
+				<label for="exampleInputEmail1" class="form-label">นามสกุล :<span style="color: red;">&nbsp;*</label>
+				<input type="text" class="form-control"  name="lname" placeholder="กรุณาใส่นามสกุล" required>
+			</div>
+			<div class="col-md-6">
+			เพศ : <span style="color: red;">&nbsp;*
+			<select class="form-control"  name="gender">
+			<option value="ไม่ระบุเพศ">ไม่ระบุเพศ
+			<option value="ชาย" >ชาย
+			<option value="หญิง">หญิง
+			</select>	
+			</div>
+			<div class="col-md-6">
+				<label for="exampleInputEmail1" class="form-label">Email :<span style="color: red;">&nbsp;*</label>
+				<input type="email" class="form-control"  name="email" placeholder="กรุณากรอกอีเมล์"required>
+			</div>
+			<div class="col-md-6">
+				<label for="exampleInputEmail1" class="form-label">Social account :<span style="color: red;">&nbsp;*</label>
+				<input type="text" class="form-control"  name="social_account" placeholder="Facebook,Line,Instragrame"required>
+			</div>
+			<div class="col-md-6">
+				<label for="exampleInputEmail1" class="form-label">เบอร์โทรศัพท์ :<span style="color: red;">&nbsp;*</label>
+				<input type="text" class="form-control"  name="phone" placeholder="กรุณากรอกเบอร์โทรศัพท์ 10 หลัก"required>
+				
+			</div>
+			<div class="col-md-6">
+				<div class="form-group">
+                    <p class="p-area">Address<span style="color: red;">&nbsp;*</span></p>
+                    <textarea name="address" class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="กรุณาหรอกที่อยู่ เช่น 999 หมู่ 1 หนองปรือ อำเภอบางพลี สมุทรปราการ 10540" required></textarea></center>
+					
+					
+					
+                </div>
+                </div>
+				
+
+			
+			
+		</div>
+</div>
+</div>
+<center><button type="submit" name="btn_register" class="btn btn-outline-success"><i class="bi bi-person-plus"></i> สมัครสมาชิก</button><br><br></center>
+</form>
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+	</body>
+</html>
